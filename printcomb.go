@@ -24,10 +24,7 @@ func PrintComb() {
 						z01.PrintRune(32)
 					}
 				}
-				//si ijk = 789, ne pas afficher la virgule
-			
 			}	
 		} 	
-
 	} 						
 }
