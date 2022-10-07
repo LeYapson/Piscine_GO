@@ -25,3 +25,22 @@ func PrintComb() {
 		}
 	}
 }
+/*
+func printcomb() {
+
+}
+
+*/
+
+/*
+i=0
+j=0
+k=0
+
+for i=0; i<=9; i++
+	for j=0; j<=9; j++
+		for k=0; k<=9; k++
+			if i < j && j < k
+			print (i,j,k)
+
+*/
