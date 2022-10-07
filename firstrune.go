@@ -1,6 +1,6 @@
 package piscine
 
-func Firstrune(s string) rune {
+func FirstRune(s string) rune {
 	r := rune(s[0])
 	return r
 }
