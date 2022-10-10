@@ -6,6 +6,6 @@ func PrintStr(s string) {
 	r := []rune(s)
 	l := len(r)
 	for  i := 0; i < (l); i++ {
-	z01.PrintRune(r[i])
+		z01.PrintRune(r[i])
 	}
 }
