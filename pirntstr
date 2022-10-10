@@ -1,0 +1,9 @@
+package piscine
+
+func PrintStr(s string) rune {
+	r := []rune(s)
+	l := len(r)
+for i := 0; i < len(r); i++ {
+	return r[i]
+}
+}
