@@ -1,9 +1,9 @@
 package piscine
 
-func PrintStr(s string) rune {
+func PrintStr(s string) int {
 	r := []rune(s)
 	l := len(r)
 for i := 0; i < len(r); i++ {
-	return r[i]
+	return r[i[0,i-1]]
 }
 }
