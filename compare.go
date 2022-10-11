@@ -12,7 +12,7 @@ func Compare(a, b string) int {
 			return 1
 		}
 	}
-	return ('\n')
+	return (0)
 }
 
 /*
