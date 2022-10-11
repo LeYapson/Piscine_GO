@@ -7,6 +7,6 @@ func IsPrintable(s string) bool {
 		if r >= 0 && r <= 31 {
 			a = false
 		}
-		}
-		return a
+	}
+	return a
 }
