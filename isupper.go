@@ -1,6 +1,5 @@
 package piscine
 
-
 func IsUpper(s string) bool {
 	t := []rune(s)
 	a := false
