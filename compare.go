@@ -15,7 +15,6 @@ func Compare(a, b string) int {
 	return ('\n')
 }
 
-
 /*
 Returns 0 if the strings are equal (s1==s2)
 Returns 1 if string 1 is greater than string 2 (s1 > s2)
