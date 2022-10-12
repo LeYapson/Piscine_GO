@@ -1,12 +1,11 @@
 package piscine
 
 func ToLower(s string) string {
-	my_array := []rune(s)
-	a := "\n"
-	for _, i := range my_array {
-		if (i >= 'A' && i <= 'Z') {
-			my_array[i] -= 'A' + 'a'
+	r := ([]rune(s))
+	for i :=0; i < len(r); i++ {
+		if r[i] >= 'A' && r[i] <= 'Z' {
+			r[i] += 32
 		}
 	}
-	return a
+	return string(r)
 }
