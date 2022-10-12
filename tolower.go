@@ -2,7 +2,7 @@ package piscine
 
 func ToLower(s string) string {
 	r := ([]rune(s))
-	for i :=0; i < len(r); i++ {
+	for i := 0; i < len(r); i++ {
 		if r[i] >= 'A' && r[i] <= 'Z' {
 			r[i] += 32
 		}
