@@ -9,7 +9,7 @@ func Index(s string, toFind string) int {
 				if strtofind == 1 {
 					return i1
 				} else if strtofind > 1 { // si str a trouver > 1, crée une loop  pour vérifier
-					for k :=0; k < strtofind; k++{
+					for k := 0; k < strtofind; k++{
 						if s[i1+k] == toFind[k] { // si s = tofind, ajoute 1 au secondindex
 							secondIndex++
 						} else {
@@ -19,12 +19,12 @@ func Index(s string, toFind string) int {
 					if secondIndex == strtofind { // si secondindex = au nbre de str a trouver, finis la boucle
 						return i1
 					}
-				} else {  // sinon affiche -1
+				} else { // sinon affiche -1
 					return -1
 				}
 			}
 		}
-		if secondIndex <=0 { // si pas de secondindex, affiche -1
+		if secondIndex <= 0 { // si pas de secondindex, affiche -1
 			return -1
 		}
 	}
