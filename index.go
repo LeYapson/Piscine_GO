@@ -31,10 +31,6 @@ func Index(s string, toFind string) int {
 	return strtofind
 }
 
-
-
-
-
 func NbretoFind(s string) int { // permet de savoir combien de str sont a trouver
 	compteur := 0
 	for i := range s {
