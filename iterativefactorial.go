@@ -7,7 +7,7 @@ func IterativeFactorial(nb int) int {
 		return 1
 	} else {
 		a := nb - 1
-		for i := a; i >=1; i++ {
+		for i := a; i >=1; i-- {
 			nb *= i
 		}
 	}
