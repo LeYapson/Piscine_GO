@@ -11,6 +11,6 @@ func RecursivePower(nb int, power int) int {
 		return 1
 	}
 	a := nb
-	a *= RecursivePower(nb, power - 1)
+	a *= RecursivePower(nb, power-1)
 	return a
 }
