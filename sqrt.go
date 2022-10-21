@@ -9,6 +9,8 @@ func Sqrt(nb int) int {
 	nbr *= power
 	if int(nbr)%2 != 0 {
 		return 0
+	} else if nb > 342939 {
+		return 0
 	}
 	return int(nbr)
 }
