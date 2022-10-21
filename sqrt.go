@@ -4,8 +4,8 @@ func Sqrt(nb int) int {
 	if nb <= 0 {
 		return 0
 	}
-	var power float64 = 0.5
-	var nbr float64 = float64(nb)
+	var power float32 = 0.5
+	var nbr float32 = float32(nb)
 	nbr *= power
 	if nb == 1 {
 		return 1
