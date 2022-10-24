@@ -24,8 +24,7 @@ func Index(s string, toFind string) int {
 				}
 			}
 		}
-		if secondIndex <= 0 { // si pas de secondindex, affiche -1cd test
-			
+		if secondIndex <= 0 { // si pas de secondindex, affiche -1
 			return -1
 		}
 	}
