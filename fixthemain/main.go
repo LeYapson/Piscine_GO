@@ -5,6 +5,7 @@ import "github.com/01-edu/z01"
 type Door struct {
 	state bool
 }
+
 const (
 	OPEN  = false
 	CLOSE = true
