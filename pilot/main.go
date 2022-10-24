@@ -7,7 +7,7 @@ func main() {
 	donnie.Name = "Donnie"
 	donnie.Life = 100.0
 	donnie.Age = 24
-	donnie.Aircraft = "AIRCRAFT1"
+	donnie.Aircraft = AIRCRAFT1
 
 	fmt.Println(donnie)
 }
@@ -15,6 +15,6 @@ func main() {
 const AIRCRAFT1 = 1
 
 type Pilot struct {
-	Name, Aircraft string
-	Life, Age	int
+	Name string
+	Life, Age, Aircraft	int
 }
