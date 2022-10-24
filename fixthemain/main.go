@@ -55,4 +55,5 @@ func main() {
 	if !door.state {
 		CloseDoor(door)
 	}
+	z01.PrintRune('\n')
 }
