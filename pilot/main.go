@@ -16,5 +16,7 @@ const AIRCRAFT1 = 1
 
 type Pilot struct {
 	Name string
-	Life, Age, Aircraft	int
+	Life int
+	Age int
+	Aircraft int
 }
