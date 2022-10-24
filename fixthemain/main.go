@@ -43,13 +43,17 @@ func main() {
 	door := &Door{}
 
 	OpenDoor(door)
+	z01.PrintRune('\n')
 	if IsDoorClose(door) {
 		OpenDoor(door)
+		z01.PrintRune('\n')
 	}
 	if IsDoorOpen(door) {
 		CloseDoor(door)
+		z01.PrintRune('\n')
 	}
 	if !door.state {
 		CloseDoor(door)
+		z01.PrintRune('\n')
 	}
 }
