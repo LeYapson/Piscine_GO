@@ -6,7 +6,7 @@ type Door struct {
 	state bool
 }
 const (
-	OPEN = false
+	OPEN  = false
 	CLOSE = true
 )
 
