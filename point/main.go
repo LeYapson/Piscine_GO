@@ -17,5 +17,5 @@ func main() {
 
 	setPoint(points)
 
-	fmt.Printf("x = %d, y = %d\n",points.x, points.y)
+	fmt.Printf("x = %d, y = %d\n", points.x, points.y)
 }
