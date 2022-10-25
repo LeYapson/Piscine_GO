@@ -5,9 +5,9 @@ func IsPrime(nb int) bool {
 		return false
 	} else {  
 		for i := 2; i <= nb/2; i++ {  
-		 if nb%i == 0 {
-			return false
-		 }
+		 	if nb%i == 0 {
+				return false
+		 	}
 		}
 	}
 	return true
