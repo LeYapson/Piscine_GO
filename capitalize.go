@@ -4,7 +4,7 @@ func Capitalize(s string) string {
 	my_array := []rune(s)
 	for i, char := range my_array {
 		if letterornumber(char) {
-			if i == 0 || letterornumber(my_array[i-1]) == false {
+			if i == 0 || !letterornumber(my_array[i-1]) {
 				if my_array[i] >= 97 && my_array[i] <= 122 {
 					my_array[i] = char - 32
 				}
