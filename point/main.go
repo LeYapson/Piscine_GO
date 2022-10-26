@@ -1,10 +1,6 @@
 package main
 
-import (
-	"piscine"
-
-	"github.com/01-edu/z01"
-)
+import "github.com/01-edu/z01"
 
 type point struct {
 	x int
@@ -37,12 +33,20 @@ func main() {
 	}
 	text1 := "x = "
 	text2 := ", y = "
-	piscine.PrintStr(text1)
+	PrintStr(text1)
 	for i := len(arrayx) - 1; i >= 0; i-- {
 		z01.PrintRune(arrayx[i] + 48)
 	}
-	piscine.PrintStr(text2)
+	PrintStr(text2)
 	for i := len(arrayy) - 1; i >= 0; i-- {
 		z01.PrintRune(arrayy[i] + 48)
+	}
+}
+
+func PrintStr(s string) {
+	r := []rune(s)
+	l := len(r)
+	for i := 0; i < (l); i++ {
+		z01.PrintRune(r[i])
 	}
 }
