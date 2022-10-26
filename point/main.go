@@ -40,8 +40,8 @@ func main() {
 	PrintStr(text2)
 	for i := len(arrayy) - 1; i >= 0; i-- {
 		z01.PrintRune(arrayy[i] + 48)
-		z01.PrintRune('\n')
 	}
+	z01.PrintRune('\n')
 }
 
 func PrintStr(s string) {
