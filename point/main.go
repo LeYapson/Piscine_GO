@@ -1,5 +1,7 @@
 package main
 
+import "github.com/01-edu/z01"
+
 type point struct {
 	x 	int
 	y 	int
@@ -12,11 +14,9 @@ func setPoint(ptr *point) {
 }
 
 func main() {
-	txt := "x = %d, y = %d\n"
 	points := &point{}
 
 	setPoint(points)
 
-	return txt
-	return (points.x, points.y)
+	fmt.Printf("x = %d, y = %d\n",points.x, points.y)
 }
